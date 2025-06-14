@@ -1,0 +1,21 @@
+# environment.yml
+name: docsummarizer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch>=2.0.0
+  - transformers>=4.30.0
+  - sentence-transformers>=2.2.2
+  - faiss-cpu>=1.7.4  # or faiss-gpu
+  - kaggle>=1.5.12
+  - pypdf2>=3.0.0
+  - nltk>=3.8.1
+  - numpy>=1.24.0
+  - tqdm>=4.65.0
+  - rouge-score>=0.1.2
+  - bert-score>=0.3.13
+  - pip
+  - pip:
+      - datasets>=2.12.0
