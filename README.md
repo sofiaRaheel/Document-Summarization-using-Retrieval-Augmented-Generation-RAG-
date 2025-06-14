@@ -1,0 +1,2 @@
+# Document-Summarization-using-Retrieval-Augmented-Generation-RAG-
+This RAG-powered document summarizer uses FAISS for semantic search and BART (HuggingFace) for abstractive summarization. It processes arXiv/PDF/TXT with smart chunking, generates technical/novelty/applications summaries, and evaluates with ROUGE/BERTScore. GPU-accelerated via PyTorch, it supports custom queries and handles long documents.
